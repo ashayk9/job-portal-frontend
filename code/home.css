@@ -1,0 +1,278 @@
+/* .h1{
+    background-image:url("https://hrasiamedia.com/2017/wp-content/uploads/2019/10/20191025-HRAsia-Website-Global-Business-Complexity-Index-Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+    
+    margin-block-end: 0;
+    
+    -webkit-text-fill-color:olive;
+    margin-bottom: 0;
+} */
+/* .background-image {
+    background-image: url('https://hrasiamedia.com/2017/wp-content/uploads/2019/10/20191025-HRAsia-Website-Global-Business-Complexity-Index-Image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    
+    height: 150px;
+    text-align: center;
+    padding-top: 35px;
+    color: olive;
+    margin:0px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+  } */
+  .background-image-common {
+    /* background-image: url('https://hrasiamedia.com/2017/wp-content/uploads/2019/10/20191025-HRAsia-Website-Global-Business-Complexity-Index-Image.jpg'); */
+    /* background-image: url('https://www.picturemaxx.com/files/pm_AG_Relaunch/Career/Jobs/stellenanzeige-en.jpg'); */
+    background-image: url('https://assets.techcircle.in/images/2016/11/thinkstockphotos-515594438.jpg');
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    height: 500px;
+    /* width: 100%;
+    background-position: 100% 100%; */
+    text-align: center;
+    padding-top: 35px;
+    color: aliceblue;
+    margin:0px;
+
+    
+    
+    
+  }
+ /* -------------------------------- */
+header{
+    margin: 0;
+    padding: 0;
+}
+.icon{
+    color:  white;
+}
+nav div ul li a{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-right: 15px;
+}
+nav div ul li a:hover{
+    /* background: rgba(0,0,0,255); */
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    background-color: white;
+}
+nav{
+    margin: 0;
+}
+.text{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    display: inline-block;
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+   
+}
+/* ----------------------------------------- */
+.hero {
+    
+    min-height: calc(100vh);
+    /* background: url("https://assets.techcircle.in/images/2016/11/thinkstockphotos-515594438.jpg") center/cover no-repeat; */
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(20, 12, 128, 0.73)),url('https://assets.techcircle.in/images/2016/11/thinkstockphotos-515594438.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .banner {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    padding: 2rem;
+    z-index:1;
+    margin-top: 100px;
+    
+  }
+
+  /* ------------------------------ */
+  .jobheader{
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 10px;
+      padding: 10px;
+  }
+  
+  .divide{
+      display: flex;
+      justify-content: space-between;
+      
+  }
+
+.img{
+    width: 200px;
+}
+ 
+ 
+.profile{
+    display: flex;
+    
+}
+.card-image{
+    height: 250px;
+    
+    object-fit: cover;
+}
+.imgdet{
+    display: inline-block;
+    width: 35%;
+}
+.card-textbox{
+    margin-left: 20px;
+    display: inline-block;
+    width: 55%;
+}
+.section{
+    margin-bottom: 20px;
+}
+.b1{
+    background-image: url("https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/hiring-505_122713094206.jpg");
+
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://assets.techcircle.in/images/2016/11/thinkstockphotos-515594438.jpg "); */
+}
+.searchbar{
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+}
+.banner_ {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    padding: 1rem;
+    z-index:1;
+    
+  }
+.sbox{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 150px;
+    border-top: blue solid;
+    
+}
+.userrow{
+    color: black;
+}
+.item{
+    display: inline-block;
+    width: 24%;
+}
+button :hover{
+    cursor: pointer;
+}
+/* ---------------------------------------- */
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.formbox{
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+    /* border: #ffd900 solid; */
+}
+.ftext{
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+    border: black solid;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+._s{
+    margin-right: 10px;
+}
+.fbtn{
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    
+}
+.f_btn{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    margin: 20px;
+}
+.fitem{
+    display: inline-block;
+    width: 16%;
+    text-align: center;
+}
+.email{
+    display: inline-block;
+    width: 22%;
+}
+.resume{
+    display: inline-block;
+    width: 10%;
+}
+.color{
+    background-color: rgb(255, 208, 0);
+     
+}
+.color_row{
+    background-color: rgba(117, 19, 93, 0.5);
+}
+.cardbox{
+    padding: 10px;
+    margin:10px;
+    background-color: white;
+}
+
+.col{
+    color: black;
+    margin-bottom: 10px;
+}
+.postJob{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),url('https://akm-img-a-in.tosshub.com/indiatoday/images/story/202004/blur-businesswoman-caucasian-9-770x433.jpeg?NQ8hZySemoxp8wHA9dYQwkRxbJDY3BRs');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    color: white;
+    min-height: calc(100vh);
+}
+.ii{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0,0,0,0.2)),url('https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/hiring-505_122713094206.jpg');
+
+}
+._m{
+    margin-top: 70px;
+    
+}
+.border_{
+    border: solid black 2px;
+    
+}
+.apply_img{
+    border-radius: 10px;
+    
+}
+.homebox{
+   
+    margin: 10px;
+}
+.box{
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
